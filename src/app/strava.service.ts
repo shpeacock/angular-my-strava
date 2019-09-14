@@ -12,7 +12,7 @@ export class StravaService {
 
   getDatData(){
     return this.fuckenThing.get(
-      `https://www.strava.com/api/v3/athletes/6147470/stats?access_token=4865af38b6308fdd5b776036cec55dd8d68d2591`
+      `https://www.strava.com/api/v3/athletes/6147470/stats?access_token=830f3a982142f8f52167b62cc9454863ef95ea1a`
       ).pipe(map(response => response)).toPromise(); 
   }
   
